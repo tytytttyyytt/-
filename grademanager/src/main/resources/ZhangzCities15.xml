@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.zjut.edu.grademanager.Model.ZhangzCities15">
+        <table name="zhangz_Cities15" schema="dbo" catalog="master"/>
+        <attributes>
+            <id name="zzCino15">
+                <column name="zz_Cino15"/>
+            </id>
+            <basic name="zzName15">
+                <column name="zz_Name15"/>
+            </basic>
+            <basic name="zzSummaryCount15">
+                <column name="zz_SummaryCount15"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

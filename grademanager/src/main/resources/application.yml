@@ -1,0 +1,20 @@
+server:
+  port: 8088
+
+spring:
+  datasource:
+    name: zhangzhengMIS15  #\u6570\u636E\u5E93\u540D
+    url: jdbc:sqlserver://localhost:1433;DatabaseName=zhangzhengMIS15 #url
+    username: sa  #\u7528\u6237\u540D
+    password: z1x2c3v4  #\u5BC6\u7801
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver  #\u6570\u636E\u5E93\u94FE\u63A5\u9A71\u52A8
+
+  jpa:
+    database: sql_server
+    database-platform: org.hibernate.dialect.SQLServer2008Dialect
+    show-sql: on
+    properties:
+      hibernate:
+        ddl-auto: update
+        proc:
+          param_null_passing: true

@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "spring.jpa.hibernate.ddl-auto.proc.param_null_passing",
+      "type": "java.lang.String",
+      "description": "Description for spring.jpa.hibernate.ddl-auto.proc.param_null_passing."
+    },
+    {
+      "name": "spring.jpa.hibernate.proc.param_null_passing",
+      "type": "java.lang.String",
+      "description": "Description for spring.jpa.hibernate.proc.param_null_passing."
+    }
+  ] }
